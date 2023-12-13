@@ -1,0 +1,165 @@
+# Compile of andgate_01.v was successful.
+# Compile of andgate_01_tb.v failed with 2 errors.
+# Compile of andgate_01_tb.v failed with 2 errors.
+# Compile of andgate_01_tb.v failed with 2 errors.
+# Compile of halfadder_02.v was successful.
+# Compile of halfadder_02_tb.v failed with 2 errors.
+# Compile of halfadder_02_tb.v failed with 3 errors.
+# Compile of halfadder_02_tb.v was successful.
+# Compile of andgate_01_tb.v failed with 2 errors.
+# Load canceled
+# Compile of andgate_01_tb.v failed with 2 errors.
+# Compile of halfadder_02_tb.v was successful.
+# Compile of halfadder_02_tb.v was successful.
+# Compile of andgate_01_tb.v failed with 2 errors.
+# Compile of andgate_01_tb.v failed with 2 errors.
+# Compile of andgate_01_tb.v failed with 2 errors.
+# Compile of andgate_01_tb.v failed with 2 errors.
+# Compile of andgate_01_tb.v failed with 2 errors.
+# Compile of andgate_01_tb.v was successful.
+vsim -gui work.halfadder_02_tb
+# vsim -gui work.halfadder_02_tb 
+# Start time: 15:30:37 on Dec 13,2023
+# Loading work.halfadder_02_tb
+# ** Warning: (vsim-3035) Instantiation depth of '/halfadder_02_tb/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt' is 51. This might indicate a recursive instantiation. Increasing limit to 75.
+# ** Error: (vsim-3036) Instantiation depth of '/halfadder_02_tb/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt' is 75. Assuming recursive instantiation.
+#    Time: 0 ps  Iteration: 0  Instance: /halfadder_02_tb/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt File: E:/University/Semester 05/EE5260 - Hardware Description Language/Vlog_Day01/halfadder_02_tb.v
+# Error loading design
+# End time: 15:30:37 on Dec 13,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 28
+vsim work.halfadder_02_tb
+# vsim work.halfadder_02_tb 
+# Start time: 15:31:04 on Dec 13,2023
+# Loading work.halfadder_02_tb
+# ** Warning: (vsim-3035) Instantiation depth of '/halfadder_02_tb/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt' is 51. This might indicate a recursive instantiation. Increasing limit to 75.
+# ** Error: (vsim-3036) Instantiation depth of '/halfadder_02_tb/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt' is 75. Assuming recursive instantiation.
+#    Time: 0 ps  Iteration: 0  Instance: /halfadder_02_tb/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt File: E:/University/Semester 05/EE5260 - Hardware Description Language/Vlog_Day01/halfadder_02_tb.v
+# Error loading design
+# End time: 15:31:04 on Dec 13,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+vsim work.TwoInputAndGate_tb
+# vsim work.TwoInputAndGate_tb 
+# Start time: 15:31:33 on Dec 13,2023
+# Loading work.TwoInputAndGate_tb
+# Loading work.TwoInputAndGate
+run -all
+add wave -position insertpoint sim:/TwoInputAndGate_tb/*
+run -all
+run -all
+run
+run
+run
+run -continue
+run -all
+vsim work.halfadder_02_tb
+# End time: 15:32:59 on Dec 13,2023, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 1
+# vsim work.halfadder_02_tb 
+# Start time: 15:32:59 on Dec 13,2023
+# Loading work.halfadder_02_tb
+# ** Warning: (vsim-3035) Instantiation depth of '/halfadder_02_tb/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt' is 51. This might indicate a recursive instantiation. Increasing limit to 75.
+# ** Error: (vsim-3036) Instantiation depth of '/halfadder_02_tb/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt' is 75. Assuming recursive instantiation.
+#    Time: 0 ps  Iteration: 0  Instance: /halfadder_02_tb/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt/bt File: E:/University/Semester 05/EE5260 - Hardware Description Language/Vlog_Day01/halfadder_02_tb.v
+# Error loading design
+# End time: 15:33:00 on Dec 13,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of halfadder_02_tb.v was successful.
+vsim work.halfadder_02_tb
+# vsim work.halfadder_02_tb 
+# Start time: 15:42:34 on Dec 13,2023
+# Loading work.halfadder_02_tb
+# ** Warning: (vsim-3035) Instantiation depth of '/halfadder_02_tb/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut' is 51. This might indicate a recursive instantiation. Increasing limit to 75.
+# ** Error: (vsim-3036) Instantiation depth of '/halfadder_02_tb/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut' is 75. Assuming recursive instantiation.
+#    Time: 0 ps  Iteration: 0  Instance: /halfadder_02_tb/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut/dut File: E:/University/Semester 05/EE5260 - Hardware Description Language/Vlog_Day01/halfadder_02_tb.v
+# Error loading design
+# End time: 15:42:34 on Dec 13,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 3
+# Compile of halfadder_02_tb.v was successful.
+vsim work.halfadder_02_tb
+# vsim work.halfadder_02_tb 
+# Start time: 15:43:39 on Dec 13,2023
+# Loading work.halfadder_02_tb
+# ** Error: (vsim-3033) Instantiation of 'halfadder_02' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /halfadder_02_tb File: E:/University/Semester 05/EE5260 - Hardware Description Language/Vlog_Day01/halfadder_02_tb.v Line: 7
+#         Searched libraries:
+#             E:/University/Semester 05/EE5260 - Hardware Description Language/Vlog_Day01/work
+# Error loading design
+# End time: 15:43:39 on Dec 13,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of halfadder_02.v was successful.
+# Compile of halfadder_02_tb.v was successful.
+vsim work.halfadder_02_tb
+# vsim work.halfadder_02_tb 
+# Start time: 15:44:11 on Dec 13,2023
+# Loading work.halfadder_02_tb
+# Loading work.halfadder_02
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /halfadder_02_tb/dut File: E:/University/Semester 05/EE5260 - Hardware Description Language/Vlog_Day01/halfadder_02_tb.v Line: 7
+# ** Warning: (vsim-3722) E:/University/Semester 05/EE5260 - Hardware Description Language/Vlog_Day01/halfadder_02_tb.v(7): [TFMPC] - Missing connection for port 'SUM'.
+add wave -position insertpoint sim:/halfadder_02_tb/*
+run -all
+quit -sim
+# End time: 15:45:21 on Dec 13,2023, Elapsed time: 0:01:10
+# Errors: 0, Warnings: 5
+# Compile of halfadder_02_tb.v was successful.
+vsim work.halfadder_02_tb
+# vsim work.halfadder_02_tb 
+# Start time: 15:45:33 on Dec 13,2023
+# Loading work.halfadder_02_tb
+# Loading work.halfadder_02
+add wave -position insertpoint sim:/halfadder_02_tb/*
+run -all
+quit -sim
+vsim work.TwoInputAndGate_tb
+# End time: 15:46:49 on Dec 13,2023, Elapsed time: 0:01:16
+# Errors: 0, Warnings: 2
+# vsim work.TwoInputAndGate_tb 
+# Start time: 15:46:49 on Dec 13,2023
+# Loading work.TwoInputAndGate_tb
+# Loading work.TwoInputAndGate
+add wave -position insertpoint sim:/TwoInputAndGate_tb/*
+run -all
+quit -sim
+# End time: 15:48:03 on Dec 13,2023, Elapsed time: 0:01:14
+# Errors: 0, Warnings: 1
+# Compile of andgate_01_tb.v was successful.
+vsim work.TwoInputAndGate_tb
+# vsim work.TwoInputAndGate_tb 
+# Start time: 15:49:28 on Dec 13,2023
+# Loading work.TwoInputAndGate_tb
+# Loading work.TwoInputAndGate
+add wave -position insertpoint sim:/TwoInputAndGate_tb/*
+run -all
+quit -sim
+# End time: 16:01:54 on Dec 13,2023, Elapsed time: 0:12:26
+# Errors: 0, Warnings: 2
+# Compile of multiplexer_03.v failed with 5 errors.
+# Compile of multiplexer_03.v failed with 5 errors.
+# Compile of multiplexer_03.v failed with 4 errors.
+# Compile of multiplexer_03.v failed with 4 errors.
+# Compile of multiplexer_03.v was successful.
+# Compile of multiplexer_03.v was successful.
+# Compile of multiplexer_03.v was successful.
+# Compile of multiplexer_conditional_4_to_1.v was successful.
+# Compile of multiplexer_conditional_4_to_1.v was successful.
+# Compile of multiplexer_03_tb.v was successful.
+vsim work.multiplexer_03_tb
+# vsim work.multiplexer_03_tb 
+# Start time: 16:39:10 on Dec 13,2023
+# Loading work.multiplexer_03_tb
+# Loading work.multiplexer_conditional_03
+add wave -position insertpoint sim:/multiplexer_03_tb/*
+run -all
+run
+run
+run
+# Break key hit
+run -all
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# End time: 17:08:14 on Dec 13,2023, Elapsed time: 0:29:04
+# Errors: 0, Warnings: 1

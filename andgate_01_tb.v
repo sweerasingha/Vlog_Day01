@@ -1,0 +1,21 @@
+// And Gate Testbench
+
+`timescale 1 ps/ 1 ps
+
+module TwoInputAndGate_tb();
+    reg in1,in2;
+    wire out;
+
+    TwoInputAndGate dut (.IN1(in1), .IN2(in2), .OUT(out));
+
+    initial begin
+      in1=0; in2=0;
+
+      #10 in1=0; in2=0;
+      #10 in1=0; in2=1;
+      #10 in1=1; in2=0;
+      #10 in1=1; in2=1;
+
+    end
+
+endmodule

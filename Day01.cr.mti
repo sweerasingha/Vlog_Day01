@@ -1,0 +1,50 @@
+{E:/University/Semester 05/EE5260 - Hardware Description Language/Vlog_Day01/multiplexer_conditional_4_to_1.v} {1 {vlog -work work -stats=none {E:/University/Semester 05/EE5260 - Hardware Description Language/Vlog_Day01/multiplexer_conditional_4_to_1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module multiplexer_conditional_03
+
+Top level modules:
+	multiplexer_conditional_03
+
+} {} {}} {E:/University/Semester 05/EE5260 - Hardware Description Language/Vlog_Day01/halfadder_02.v} {1 {vlog -work work -stats=none {E:/University/Semester 05/EE5260 - Hardware Description Language/Vlog_Day01/halfadder_02.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module halfadder_02
+
+Top level modules:
+	halfadder_02
+
+} {} {}} {E:/University/Semester 05/EE5260 - Hardware Description Language/Vlog_Day01/andgate_01.v} {1 {vlog -work work -stats=none {E:/University/Semester 05/EE5260 - Hardware Description Language/Vlog_Day01/andgate_01.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TwoInputAndGate
+
+Top level modules:
+	TwoInputAndGate
+
+} {} {}} {E:/University/Semester 05/EE5260 - Hardware Description Language/Vlog_Day01/multiplexer_03.v} {1 {vlog -work work -stats=none {E:/University/Semester 05/EE5260 - Hardware Description Language/Vlog_Day01/multiplexer_03.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module multiplexer_03
+
+Top level modules:
+	multiplexer_03
+
+} {} {}} {E:/University/Semester 05/EE5260 - Hardware Description Language/Vlog_Day01/halfadder_02_tb.v} {1 {vlog -work work -stats=none {E:/University/Semester 05/EE5260 - Hardware Description Language/Vlog_Day01/halfadder_02_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module halfadder_02_tb
+
+Top level modules:
+	halfadder_02_tb
+
+} {} {}} {E:/University/Semester 05/EE5260 - Hardware Description Language/Vlog_Day01/andgate_01_tb.v} {1 {vlog -work work -stats=none {E:/University/Semester 05/EE5260 - Hardware Description Language/Vlog_Day01/andgate_01_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TwoInputAndGate_tb
+
+Top level modules:
+	TwoInputAndGate_tb
+
+} {} {}} {E:/University/Semester 05/EE5260 - Hardware Description Language/Vlog_Day01/multiplexer_03_tb.v} {1 {vlog -work work -stats=none {E:/University/Semester 05/EE5260 - Hardware Description Language/Vlog_Day01/multiplexer_03_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module multiplexer_03_tb
+
+Top level modules:
+	multiplexer_03_tb
+
+} {} {}}
